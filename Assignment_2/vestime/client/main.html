@@ -1,0 +1,21 @@
+<head>
+  <title>simple</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hello}}
+  {{> info}}
+</body>
+
+<template name="weather-info">
+  <h1>{{city}}</h1>
+  <p>Weather: {{weatherConditions}}</p>
+
+</template>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
