@@ -1,0 +1,6 @@
+200
+{"city":{"id":2761369,"name":"Vienna","coord":{"lon":16.37208,"lat":48.208488},"country":"AT","population":0,"sys":{"population":0}},
+
+"cod":"200","message":0.0041,"cnt":1,
+
+"list":[{"dt":1462125600,"main":{"temp":12.24,"temp_min":12.24,"temp_max":12.24,"pressure":986.19,"sea_level":1030.65,"grnd_level":986.19,"humidity":75,"temp_kf":0},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"clouds":{"all":92},"wind":{"speed":2.72,"deg":33.003},"rain":{"3h":0.375},"sys":{"pod":"d"},"dt_txt":"2016-05-01 18:00:00"}]}
