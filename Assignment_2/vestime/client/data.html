@@ -1,7 +1,22 @@
 <template name="data">
 
-  <h1>{{ city }}</h1>
-  <p>Temperature: {{ temperature }}</p>
-  <p>Current weather: {{ weatherConditions }}</p>
+  <div class="content">
+
+    <h1 class="city">{{ city }}</h1>
+    <hr>
+
+    <div class="weather-data-group">
+
+      <div class="icon"><img src="/images/{{ icon }}" alt=""></div>
+
+      <div class="temperature">{{ temperature}} °C</div>
+
+      <div class="weather">{{ weather_conditions }}</div>
+
+    </div>
+
+    <div class="clothing"></div>
+
+  </div>
 
 </template>
