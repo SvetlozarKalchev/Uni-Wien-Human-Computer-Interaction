@@ -11,8 +11,11 @@ Meteor.startup(() => {
 
   // Makes the API call and pushes the returned values to the UI
   make_API_call((temperature, weather_status_code, weather_conditions, icon) => {
+    // Determines the weather type and sets the correct icon
     Session.set('icon', parse_weather_code(weather_status_code).toString() + '.png');
+
     Session.set('temperature', parseInt(temperature));
+    
     Session.set('weather', weather_conditions);
   });
 
@@ -62,5 +65,4 @@ Meteor.startup(() => {
         break;
     }
   }
-
 });
