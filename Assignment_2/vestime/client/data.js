@@ -1,10 +1,10 @@
 Template.data.helpers({
-  city: 'Unknown',
+  city: 'Vienna',
 
   icon: function() {
     return Session.get('icon', 'Waiting for the server...')
   },
-  
+
   temperature: function() {
     return Session.get('temperature', 'Waiting for the server...')
   },
