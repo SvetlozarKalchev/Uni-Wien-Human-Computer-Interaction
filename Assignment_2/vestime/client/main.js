@@ -6,11 +6,14 @@ import { Session } from 'meteor/session';
 
 import './main.html';
 
+
 // Import custom function
 import make_API_call  from './api_call.js'
 import parse_weather_code from './parse_weather_code.js'
 import recommend_clothes from './recommend_clothes.js'
 import describe_weather from './describe_weather.js'
+
+Meteor.disconnect();
 
 // code to run at app startup
 Meteor.startup(() => {
